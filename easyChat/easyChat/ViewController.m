@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LoginView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationController.navigationBarHidden=YES;
+    UIImageView *imageView=[[UIImageView alloc]initWithFrame:self.view.frame];
+    imageView.image=[UIImage imageNamed:@"Default"];
+    [self.view addSubview:imageView];
+    
+    
+
+    [UIView animateWithDuration:0.5 animations:^{
+        imageView.alpha=0.5;
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:0.5 animations:^{
+            
+            [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self.view.window cache:YES];
+            LoginView *VC1=[[LoginView alloc]init];
+            [self.navigationController pushViewController:VC1 animated:YES];
+            self.navigationController.navigationBarHidden=NO;
+            
+        }];
+    }];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
