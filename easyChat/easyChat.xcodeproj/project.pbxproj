@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044D46141D2642B900729E82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D46131D2642B900729E82 /* main.m */; };
+		044D46171D2642B900729E82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D46161D2642B900729E82 /* AppDelegate.m */; };
+		044D461A1D2642B900729E82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D46191D2642B900729E82 /* ViewController.m */; };
+		044D461D1D2642B900729E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044D461B1D2642B900729E82 /* Main.storyboard */; };
+		044D461F1D2642B900729E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044D461E1D2642B900729E82 /* Assets.xcassets */; };
+		044D46221D2642B900729E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044D46201D2642B900729E82 /* LaunchScreen.storyboard */; };
+		044D462D1D2642B900729E82 /* easyChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D462C1D2642B900729E82 /* easyChatTests.m */; };
+		044D46381D2642B900729E82 /* easyChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044D46371D2642B900729E82 /* easyChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044D46291D2642B900729E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044D46071D2642B900729E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044D460E1D2642B900729E82;
+			remoteInfo = easyChat;
+		};
+		044D46341D2642B900729E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044D46071D2642B900729E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044D460E1D2642B900729E82;
+			remoteInfo = easyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044D460F1D2642B900729E82 /* easyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D46131D2642B900729E82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044D46151D2642B900729E82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044D46161D2642B900729E82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044D46181D2642B900729E82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044D46191D2642B900729E82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044D461C1D2642B900729E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044D461E1D2642B900729E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044D46211D2642B900729E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044D46231D2642B900729E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044D46281D2642B900729E82 /* easyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D462C1D2642B900729E82 /* easyChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easyChatTests.m; sourceTree = "<group>"; };
+		044D462E1D2642B900729E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044D46331D2642B900729E82 /* easyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D46371D2642B900729E82 /* easyChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easyChatUITests.m; sourceTree = "<group>"; };
+		044D46391D2642B900729E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044D460C1D2642B900729E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D46251D2642B900729E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D46301D2642B900729E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044D46061D2642B900729E82 = {
+			isa = PBXGroup;
+			children = (
+				044D46111D2642B900729E82 /* easyChat */,
+				044D462B1D2642B900729E82 /* easyChatTests */,
+				044D46361D2642B900729E82 /* easyChatUITests */,
+				044D46101D2642B900729E82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044D46101D2642B900729E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044D460F1D2642B900729E82 /* easyChat.app */,
+				044D46281D2642B900729E82 /* easyChatTests.xctest */,
+				044D46331D2642B900729E82 /* easyChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044D46111D2642B900729E82 /* easyChat */ = {
+			isa = PBXGroup;
+			children = (
+				044D46151D2642B900729E82 /* AppDelegate.h */,
+				044D46161D2642B900729E82 /* AppDelegate.m */,
+				044D46181D2642B900729E82 /* ViewController.h */,
+				044D46191D2642B900729E82 /* ViewController.m */,
+				044D461B1D2642B900729E82 /* Main.storyboard */,
+				044D461E1D2642B900729E82 /* Assets.xcassets */,
+				044D46201D2642B900729E82 /* LaunchScreen.storyboard */,
+				044D46231D2642B900729E82 /* Info.plist */,
+				044D46121D2642B900729E82 /* Supporting Files */,
+			);
+			path = easyChat;
+			sourceTree = "<group>";
+		};
+		044D46121D2642B900729E82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044D46131D2642B900729E82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044D462B1D2642B900729E82 /* easyChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				044D462C1D2642B900729E82 /* easyChatTests.m */,
+				044D462E1D2642B900729E82 /* Info.plist */,
+			);
+			path = easyChatTests;
+			sourceTree = "<group>";
+		};
+		044D46361D2642B900729E82 /* easyChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044D46371D2642B900729E82 /* easyChatUITests.m */,
+				044D46391D2642B900729E82 /* Info.plist */,
+			);
+			path = easyChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044D460E1D2642B900729E82 /* easyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D463C1D2642B900729E82 /* Build configuration list for PBXNativeTarget "easyChat" */;
+			buildPhases = (
+				044D460B1D2642B900729E82 /* Sources */,
+				044D460C1D2642B900729E82 /* Frameworks */,
+				044D460D1D2642B900729E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easyChat;
+			productName = easyChat;
+			productReference = 044D460F1D2642B900729E82 /* easyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044D46271D2642B900729E82 /* easyChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D463F1D2642B900729E82 /* Build configuration list for PBXNativeTarget "easyChatTests" */;
+			buildPhases = (
+				044D46241D2642B900729E82 /* Sources */,
+				044D46251D2642B900729E82 /* Frameworks */,
+				044D46261D2642B900729E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044D462A1D2642B900729E82 /* PBXTargetDependency */,
+			);
+			name = easyChatTests;
+			productName = easyChatTests;
+			productReference = 044D46281D2642B900729E82 /* easyChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044D46321D2642B900729E82 /* easyChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044D46421D2642B900729E82 /* Build configuration list for PBXNativeTarget "easyChatUITests" */;
+			buildPhases = (
+				044D462F1D2642B900729E82 /* Sources */,
+				044D46301D2642B900729E82 /* Frameworks */,
+				044D46311D2642B900729E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044D46351D2642B900729E82 /* PBXTargetDependency */,
+			);
+			name = easyChatUITests;
+			productName = easyChatUITests;
+			productReference = 044D46331D2642B900729E82 /* easyChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044D46071D2642B900729E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "艾尼维亚";
+				TargetAttributes = {
+					044D460E1D2642B900729E82 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					044D46271D2642B900729E82 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044D460E1D2642B900729E82;
+					};
+					044D46321D2642B900729E82 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044D460E1D2642B900729E82;
+					};
+				};
+			};
+			buildConfigurationList = 044D460A1D2642B900729E82 /* Build configuration list for PBXProject "easyChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044D46061D2642B900729E82;
+			productRefGroup = 044D46101D2642B900729E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044D460E1D2642B900729E82 /* easyChat */,
+				044D46271D2642B900729E82 /* easyChatTests */,
+				044D46321D2642B900729E82 /* easyChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044D460D1D2642B900729E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D46221D2642B900729E82 /* LaunchScreen.storyboard in Resources */,
+				044D461F1D2642B900729E82 /* Assets.xcassets in Resources */,
+				044D461D1D2642B900729E82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D46261D2642B900729E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D46311D2642B900729E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044D460B1D2642B900729E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D461A1D2642B900729E82 /* ViewController.m in Sources */,
+				044D46171D2642B900729E82 /* AppDelegate.m in Sources */,
+				044D46141D2642B900729E82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D46241D2642B900729E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D462D1D2642B900729E82 /* easyChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044D462F1D2642B900729E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044D46381D2642B900729E82 /* easyChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044D462A1D2642B900729E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044D460E1D2642B900729E82 /* easyChat */;
+			targetProxy = 044D46291D2642B900729E82 /* PBXContainerItemProxy */;
+		};
+		044D46351D2642B900729E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044D460E1D2642B900729E82 /* easyChat */;
+			targetProxy = 044D46341D2642B900729E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044D461B1D2642B900729E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044D461C1D2642B900729E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044D46201D2642B900729E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044D46211D2642B900729E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044D463A1D2642B900729E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044D463B1D2642B900729E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044D463D1D2642B900729E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = easyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.acfun.www.easyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044D463E1D2642B900729E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = easyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.acfun.www.easyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044D46401D2642B900729E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = easyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.acfun.www.easyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easyChat.app/easyChat";
+			};
+			name = Debug;
+		};
+		044D46411D2642B900729E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = easyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.acfun.www.easyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easyChat.app/easyChat";
+			};
+			name = Release;
+		};
+		044D46431D2642B900729E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = easyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.acfun.www.easyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = easyChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		044D46441D2642B900729E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = easyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.acfun.www.easyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = easyChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044D460A1D2642B900729E82 /* Build configuration list for PBXProject "easyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D463A1D2642B900729E82 /* Debug */,
+				044D463B1D2642B900729E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044D463C1D2642B900729E82 /* Build configuration list for PBXNativeTarget "easyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D463D1D2642B900729E82 /* Debug */,
+				044D463E1D2642B900729E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044D463F1D2642B900729E82 /* Build configuration list for PBXNativeTarget "easyChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D46401D2642B900729E82 /* Debug */,
+				044D46411D2642B900729E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044D46421D2642B900729E82 /* Build configuration list for PBXNativeTarget "easyChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044D46431D2642B900729E82 /* Debug */,
+				044D46441D2642B900729E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044D46071D2642B900729E82 /* Project object */;
+}
